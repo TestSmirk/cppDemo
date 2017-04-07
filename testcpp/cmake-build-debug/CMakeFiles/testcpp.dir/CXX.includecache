@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/testsmirk/Documents/cpp/testcpp/main.cpp
+iostream
+-
+
+/Users/testsmirk/Documents/cpp/testcpp/while.cpp
+iostream
+-
+
