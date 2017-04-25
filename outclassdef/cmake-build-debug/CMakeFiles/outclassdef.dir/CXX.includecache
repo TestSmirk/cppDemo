@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/testsmirk/Documents/cpp/outclassdef/Teacher.cpp
+iostream
+-
+Teacher.h
+/Users/testsmirk/Documents/cpp/outclassdef/Teacher.h
+
+/Users/testsmirk/Documents/cpp/outclassdef/Teacher.h
+string
+/Users/testsmirk/Documents/cpp/outclassdef/string
+
+/Users/testsmirk/Documents/cpp/outclassdef/main.cpp
+iostream
+-
+Teacher.h
+/Users/testsmirk/Documents/cpp/outclassdef/Teacher.h
+
