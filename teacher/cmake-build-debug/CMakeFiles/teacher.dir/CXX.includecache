@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/testsmirk/Documents/cpp/teacher/Teacher.cpp
+Teacher.h
+/Users/testsmirk/Documents/cpp/teacher/Teacher.h
+iostream
+/Users/testsmirk/Documents/cpp/teacher/iostream
+string
+/Users/testsmirk/Documents/cpp/teacher/string
+
+/Users/testsmirk/Documents/cpp/teacher/Teacher.h
+string
+/Users/testsmirk/Documents/cpp/teacher/string
+
+/Users/testsmirk/Documents/cpp/teacher/main.cpp
+iostream
+-
+Teacher.h
+/Users/testsmirk/Documents/cpp/teacher/Teacher.h
+

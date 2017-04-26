@@ -1,11 +1,18 @@
-#include <string>
-#include <string>
+//
+// Created by TestSmirk on 2017/4/26.
+//
+
+#ifndef TEACHER_TEACHER_H
+#define TEACHER_TEACHER_H
 using namespace std;
 
-class Teacher{
+#include "string"
+
+
+class Teacher {
 public:
   Teacher();
-  Teacher(string name,int _age);
+  Teacher(string name,int _age=20);
 
 void setName(string _name);
 string getName();
@@ -20,3 +27,6 @@ string m_strName;
 string m_strGender;
 int m_iAge;
 };
+
+
+#endif //TEACHER_TEACHER_H
